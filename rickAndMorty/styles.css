@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+        padding-top: 20px;
+        gap: 10px;
+
+}
+
+.description {
+    margin: 0;
+
+}
+
+#infoBlock {
+    display: flex;
+   flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.infodiv {
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск Rick and Morty</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<h1>Поиск Rick and Morty</h1>
+<form>
+    <input type="text" placeholder="Введите имя персонажа..." id="input" />
+</form>
+
+<div class="row">
+    <button type="button" id="back">Назад</button>
+    <p class="description">Страница <span id="currentPageSpan"></span> из <span id="pagesAmountSpan"></span></p>
+    <button type="button" id="forward">Вперед</button>
+</div>
+
+<div id="loader" hidden>Загрузка...</div>
+<div id="infoBlock"></div>
+<div id="infoObj"></div>
+
+</body>
+
+</html>
